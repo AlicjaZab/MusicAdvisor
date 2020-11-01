@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Music_Advisor.iml" filepath="$PROJECT_DIR$/.idea/modules/Music_Advisor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Music Advisor/task/Music_Advisor.Music_Advisor-task.iml" filepath="$PROJECT_DIR$/.idea/modules/Music Advisor/task/Music_Advisor.Music_Advisor-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Music Advisor/task/Music_Advisor.Music_Advisor-task.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Music Advisor/task/Music_Advisor.Music_Advisor-task.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Music Advisor/task/Music_Advisor.Music_Advisor-task.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Music Advisor/task/Music_Advisor.Music_Advisor-task.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Photocopiers/Music_Advisor.Problems-Photocopiers.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Photocopiers/Music_Advisor.Problems-Photocopiers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Photocopiers/Music_Advisor.Problems-Photocopiers.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Photocopiers/Music_Advisor.Problems-Photocopiers.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Photocopiers/Music_Advisor.Problems-Photocopiers.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Photocopiers/Music_Advisor.Problems-Photocopiers.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Quality control system/Music_Advisor.Problems-Quality_control_system.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Quality control system/Music_Advisor.Problems-Quality_control_system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Quality control system/Music_Advisor.Problems-Quality_control_system.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Quality control system/Music_Advisor.Problems-Quality_control_system.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Quality control system/Music_Advisor.Problems-Quality_control_system.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Quality control system/Music_Advisor.Problems-Quality_control_system.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Static factory methods for Time/Music_Advisor.Problems-Static_factory_methods_for_Time.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Static factory methods for Time/Music_Advisor.Problems-Static_factory_methods_for_Time.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Static factory methods for Time/Music_Advisor.Problems-Static_factory_methods_for_Time.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Static factory methods for Time/Music_Advisor.Problems-Static_factory_methods_for_Time.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Static factory methods for Time/Music_Advisor.Problems-Static_factory_methods_for_Time.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Static factory methods for Time/Music_Advisor.Problems-Static_factory_methods_for_Time.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Music_Advisor.util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Music_Advisor.util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Music_Advisor.util.main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Music_Advisor.util.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Music_Advisor.util.test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Music_Advisor.util.test.iml" />
+    </modules>
+  </component>
+</project>
