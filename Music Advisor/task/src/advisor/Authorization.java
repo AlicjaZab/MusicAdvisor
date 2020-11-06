@@ -13,6 +13,12 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
+/**
+ * Class used for authorization:
+ * getting access code and access token
+ * Only for specified CLIENT_ID and CLIENT_SECRET
+ * You should change those values if you want to make that application work for you.
+ */
 public class Authorization {
     public static String SERVER_PATH = "https://accounts.spotify.com";
     public static String REDIRECT_URI = "http://localhost:8080";

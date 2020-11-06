@@ -2,6 +2,9 @@ package advisor;
 
 import java.util.ArrayList;
 
+/**
+ * Represents one object in set which can be received in server response
+ */
 public abstract class SpotifyObject {
     String name;
 
@@ -12,6 +15,7 @@ public abstract class SpotifyObject {
     @Override
     public abstract String toString();
 }
+
 
 class Category extends  SpotifyObject{
 
@@ -28,6 +32,7 @@ class Category extends  SpotifyObject{
     }
 }
 
+
 class Featured extends SpotifyObject {
     String ext_url;
 
@@ -42,6 +47,7 @@ class Featured extends SpotifyObject {
     }
 }
 
+
 class Playlist extends SpotifyObject {
     String ext_url;
 
@@ -55,6 +61,7 @@ class Playlist extends SpotifyObject {
         return name + "\n" + ext_url + "\n";
     }
 }
+
 
 class NewRelease extends SpotifyObject {
     String ext_url;

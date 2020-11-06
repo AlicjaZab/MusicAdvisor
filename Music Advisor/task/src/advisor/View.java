@@ -2,9 +2,14 @@ package advisor;
 
 import java.util.ArrayList;
 
+/**
+ * Manages the task of printing sets,
+ * handles printing specified number of elements on one page,
+ * allows to go to next or previous page
+ */
 public class View {
     static int elements = 5; //number of element on one page
-    ArrayList<ArrayList> pages;
+    ArrayList<ArrayList> pages; //array of pages, where one page is an array of elements
     int actualPage;
 
     View(){

@@ -13,6 +13,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
 
+/**
+ * Contains set of values received after specified request
+ * Sends request  to API_SERVER_PATH and receives response containing appropriate set (if everything is fine)
+ * and saves it.
+ * @param <T> object representing one piece of received reguest, e.g. one "new" album
+ */
 public abstract class  SpotifySet <T extends SpotifyObject>{
     public static String API_SERVER_PATH = "https://api.spotify.com";
 
