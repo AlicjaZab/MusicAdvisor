@@ -12,7 +12,7 @@ While the application is running, you can type the following commands:
 >exit - shuts down the application.
 
 Before those you should provide acces for your appliaction. Type
-> auth
+<auth>
 then click the provided link and confirm.
 The authorization is possible only for specified CLIENT_ID and CLIENT_SECRET (you can chcange those in class Authorization). You can get them by creating new app on Spotify for Developers.
 
