@@ -1,29 +1,29 @@
-MusicAdvisor
+**MusicAdvisor**
 
 Simple application advising music for one's account, made under the supervision of JetBrains Academy (https://hyperskill.org/projects/62?track=1).
 
 While the application is running, you can type the following commands:
->featured — a list of Spotify-featured playlists with their links fetched from API;
->new — a list of new albums with artists and links on Spotify;
->categories — a list of all available categories on Spotify (just their names);
->playlists C_NAME, where C_NAME is the name of category. The list contains playlists of this category and their links on Spotify;
->next - shows the next page,
->prev - shows the previous page
->exit - shuts down the application.
+`>featured` — a list of Spotify-featured playlists with their links fetched from API;
+`>new` — a list of new albums with artists and links on Spotify;
+`>categories` — a list of all available categories on Spotify (just their names);
+`>playlists` C_NAME, where C_NAME is the name of category. The list contains playlists of this category and their links on Spotify;
+`>next` - shows the next page,
+`>prev` - shows the previous page
+`>exit` - shuts down the application.
 
 Before those you should provide acces for your appliaction. Type
-<auth>
+`>auth`
 then click the provided link and confirm.
 The authorization is possible only for specified CLIENT_ID and CLIENT_SECRET (you can chcange those in class Authorization). You can get them by creating new app on Spotify for Developers.
 
 Also, the application can be launched with three optional arguments:
--access - server path (default: https://accounts.spotify.com)
--resource - api server path (default: https://api.spotify.com)
--page - elements of output to be displayed on one page (default: 5)
+`-access` - server path (default: https://accounts.spotify.com)
+`-resource` - api server path (default: https://api.spotify.com)
+`-page` - elements of output to be displayed on one page (default: 5)
 
-Example of application input and output:
 
->auth
+**Example of application input and output for tefault arguments:**
+`>auth`
 use this link to request the access code:
 https://accounts.spotify.com/authorize?client_id=81872b06315f4b9eaff3ead664f3c376&redirect_uri=http://localhost:8080&response_type=code
 waiting for code...
@@ -33,7 +33,7 @@ making http request for access token...
 response:
 <response body>
 ---SUCCESS---
->new
+`>new`
 Hawái (Remix)
 [Maluma, The Weeknd]
 https://open.spotify.com/album/1Ag9EPbzibwzz0S0WpgX3v
@@ -55,7 +55,7 @@ Happen To Me
 https://open.spotify.com/album/7BHTjC0GfwdDkEDDvniZj7
 
 ---PAGE 1 OF 4---
->next
+`>next`
 Quarantine Thick (feat. Mulatto)
 [2 Chainz, Mulatto]
 https://open.spotify.com/album/6clmqh76lbdiSsZGVrhjIN
@@ -77,14 +77,14 @@ Take Me Home For Christmas
 https://open.spotify.com/album/5nzOzmqaWGkrlfWfk9Jrfh
 
 ---PAGE 2 OF 4---
->categories
+`>categories`
 Top Lists
 Pop
 Hip Hop
 Mood
 At Home
 ---PAGE 1 OF 4---
->playlists Hip Hop
+`>playlists Hip Hop`
 RapCaviar
 https://open.spotify.com/playlist/37i9dQZF1DX0XUsuxWHRQd
 
@@ -101,8 +101,9 @@ Feelin' Myself
 https://open.spotify.com/playlist/37i9dQZF1DX6GwdWRQMQpq
 
 ---PAGE 1 OF 2---
->prev
+`>prev`
 No more pages.
->exit
+`>exit`
 
 Process finished with exit code 0
+`
