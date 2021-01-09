@@ -22,7 +22,7 @@ Also, the application can be launched with three optional arguments:
 * `-page` - elements of output to be displayed on one page (default: 5)
 
 
-**Example of application input and output for tefault arguments:**
+**Example of application input and output for default arguments:**
 ```
 >auth
 use this link to request the access code:
